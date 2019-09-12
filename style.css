@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+* {
+    font-family: 'Manjari', sans-serif;
+    font-size: 16px;
+}
+
+h2,
+h3,
+hr,
+ul {
+    margin: 0px;
+    margin-inline-end: 20px;
+}
+
+#namedate h1 {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    margin-inline-end: 20px;
+}
+
+#container {
+    padding-top: 0px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    width: 960px;
+}
+
+header {
+    background-color: rgb(148, 148, 148);
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 4px;
+    height: 100px;
+}
+
+header h1 {
+    color: #bbbbbb;
+    margin-top: 30px;
+    font-size: 1.0rem;
+}
+
+header .elements {
+    color: #fff;
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 150px;
+}
+
+#bio {
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#bio-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#bio img {
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 9px 7px 12px -1px rgba(0, 0, 0, 0.94);
+}
+
+#namedate {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 20px;
+    border-bottom: 2px solid white;
+}
+
+.nameline {
+    margin: 0;
+    margin-inline-end: 20px;
+}
+
+#dev-list {
+    margin-top: 25px;
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+    margin-inline-end: 20px;
+    border-radius: 10px;
+}
+
+#graphics {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+figure {
+    margin: 0px;
+    max-width: 205px;
+}
+
+figure img {
+    position: relative;
+    padding-right: 2%;
+    display: flex;
+    max-width: 155px;
+    max-height: 135px;
+    border-radius: 10px;
+    top: 25px;
+}
+
+figure figcaption {
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.6);
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    max-width: 155px;
+}
+
+h2,
+h3,
+time {
+    font-size: 1.6rem;
+    color: #101010;
+}
+
+time {
+    font-size: 1.5em;
+}
+
+li {
+    color: #595959;
+}
+
+#dev-list>h3 {
+    margin-left: 21px;
+}
+
+#interest {
+    padding-left: 20px;
+    margin-inline-end: 20px;
+    margin-top: 50px;
+}
+
+#interest h1 {
+    font-size: 1.5rem;
+}
+
+#learn {
+    background-color: rgb(148, 148, 148);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#learn p {
+    font-size: 1.2rem;
+    color: #595959
+}
+
+footer {
+    background-color: rgb(148, 148, 148);
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    color: #e4e4e4;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
